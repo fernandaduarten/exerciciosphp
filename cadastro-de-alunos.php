@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Cadastro de Alunos</title>
 </head>
 <style>
     input[type=text],
@@ -17,41 +17,42 @@
         border-radius: 4px;
         box-sizing: border-box;
     }
+
     /* estilo base para os dois botões */
-input[type=submit],
-input[type=reset] {
-  width: 48%;             /* ficam lado a lado */
-  color: white;
-  padding: 14px 20px;
-  margin: 8px 1%;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  display: inline-block;
-}
+    input[type=submit],
+    input[type=reset] {
+        width: 48%;
+        /* ficam lado a lado */
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 1%;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        display: inline-block;
+    }
 
-/* cor do botão Enviar */
-input[type=submit] {
-  background-color: #4CAF50;
-}
+    /* cor do botão Enviar */
+    input[type=submit] {
+        background-color: #4CAF50;
+    }
 
-/* cor do botão Limpar */
-input[type=reset] {
-  background-color: #f44336;
-}
+    /* cor do botão Limpar */
+    input[type=reset] {
+        background-color: #f44336;
+    }
 
-/* efeito hover */
-input[type=submit]:hover,
-input[type=reset]:hover {
-  opacity: 0.9;
-}
+    /* efeito hover */
+    input[type=submit]:hover,
+    input[type=reset]:hover {
+        opacity: 0.9;
+    }
 
-form {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px;
-}
-
+    form {
+        border-radius: 5px;
+        background-color: #f2f2f2;
+        padding: 20px;
+    }
 </style>
 
 <body>
@@ -68,12 +69,6 @@ form {
         <input type="reset" value="Limpar" name="limpar">
         <input type="submit" value="Enviar" name="submit" />
     </form>
-
-
-    <?php
-    $aluno = ['Pietro Arcanjo', 'Fernanda', 'Karla', 'João', 'Lucas'];
-    $curso = ['Informática', 'Programador', 'Designer'];
-    ?>
 </body>
 
 </html>
