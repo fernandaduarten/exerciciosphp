@@ -10,6 +10,8 @@
     $nome = $_POST['aluno'];
     $curso = $_POST['curso'];
 
+    echo "Confira os seus dados<br>";
+
     echo "<h2>Usando echo</h2>";
     echo "Nome: $nome <br>";
     echo "Curso: $curso <br>";
